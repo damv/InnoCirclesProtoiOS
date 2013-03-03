@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B9EF91016E4021D006DF30D /* NewOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9EF90F16E4021D006DF30D /* NewOperationViewController.m */; };
 		2BEE742216E269800066BC62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEE742116E269800066BC62 /* UIKit.framework */; };
 		2BEE742416E269800066BC62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEE742316E269800066BC62 /* Foundation.framework */; };
 		2BEE742616E269800066BC62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEE742516E269800066BC62 /* CoreGraphics.framework */; };
@@ -27,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B9EF90E16E4021D006DF30D /* NewOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewOperationViewController.h; sourceTree = "<group>"; };
+		2B9EF90F16E4021D006DF30D /* NewOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewOperationViewController.m; sourceTree = "<group>"; };
 		2BEE741E16E269800066BC62 /* InnoCirclesProto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InnoCirclesProto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BEE742116E269800066BC62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2BEE742316E269800066BC62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -99,6 +102,8 @@
 				2BEE743016E269800066BC62 /* AppDelegate.h */,
 				2BEE743116E269800066BC62 /* AppDelegate.m */,
 				2BEE743916E269800066BC62 /* MainStoryboard_iPhone.storyboard */,
+				2B9EF90E16E4021D006DF30D /* NewOperationViewController.h */,
+				2B9EF90F16E4021D006DF30D /* NewOperationViewController.m */,
 				2BEE743C16E269800066BC62 /* MainStoryboard_iPad.storyboard */,
 				2BEE743F16E269800066BC62 /* FirstViewController.h */,
 				2BEE744016E269800066BC62 /* FirstViewController.m */,
@@ -201,6 +206,7 @@
 				2BEE743216E269800066BC62 /* AppDelegate.m in Sources */,
 				2BEE744116E269800066BC62 /* FirstViewController.m in Sources */,
 				2BEE744816E269800066BC62 /* SecondViewController.m in Sources */,
+				2B9EF91016E4021D006DF30D /* NewOperationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +339,7 @@
 				2BEE745116E269800066BC62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
